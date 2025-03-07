@@ -1,4 +1,4 @@
-package br.com.dio.config;
+package persistence.config;
 
 import lombok.AllArgsConstructor;
 
@@ -11,7 +11,9 @@ public class ConnectioConfig {
 
 
     public static Connection getConnection() throws SQLException {
-        var connection = DriverManager.getConnection("jdbc:mysql://localhost/board", "board", "board");
+        var connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/board",
+                "board",
+                "board");
         connection.setAutoCommit(false);
         return connection;
     }
