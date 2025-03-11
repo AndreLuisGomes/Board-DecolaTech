@@ -1,9 +1,9 @@
-package persistence.service;
+package br.com.dio.service;
 
 import lombok.AllArgsConstructor;
-import persistence.dao.BoardColumnDAO;
-import persistence.dao.BoardDAO;
-import persistence.entity.BoardEntity;
+import br.com.dio.persistence.dao.BoardColumnDAO;
+import br.com.dio.persistence.dao.BoardDAO;
+import br.com.dio.persistence.entity.BoardEntity;
 
 import java.sql.Connection;
 import java.sql.SQLException;

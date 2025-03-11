@@ -1,4 +1,4 @@
-package persistence.entity;
+package br.com.dio.persistence.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package persistence.config;
+package br.com.dio.persistence.config;
 
 import lombok.AllArgsConstructor;
 

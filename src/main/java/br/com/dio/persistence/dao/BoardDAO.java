@@ -1,8 +1,8 @@
-package persistence.dao;
+package br.com.dio.persistence.dao;
 
 import com.mysql.cj.jdbc.StatementImpl;
 import lombok.AllArgsConstructor;
-import persistence.entity.BoardEntity;
+import br.com.dio.persistence.entity.BoardEntity;
 
 import java.sql.Connection;
 import java.sql.SQLException;
